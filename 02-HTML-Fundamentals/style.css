@@ -96,3 +96,26 @@ li:nth-child(2) {
 article p:last-child {
   color: red;
 }
+
+/* we can format anchors/links that actually has an URL, and/or has been visited by
+ using pseudo classes, this enables you to even styl components/containers depending on its state
+ using pseudo classe  */
+a:link {
+  color: #1098ab;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ab;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+}
