@@ -69,3 +69,13 @@ the same time */
 .no-bullet-ul {
   list-style: none;
 }
+
+.header-background-gray {
+  background-color: #f7f7f7;
+}
+
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ab;
+  border-bottom: 5px solid #1098ab;
+}
