@@ -30,3 +30,5 @@
 - <ol></ol> ordered list. Each item has to be defined in a <li></li> and items will be listed using a black dot for each
 
 - <img/> it has to be closed in same opening tag, define attributes "src" to define path to image,"alt" to give screen reader a description to be more accesible for special needs users, and "width" and "height"
+
+- <button></button> creates a button
