@@ -40,6 +40,9 @@ li {
   font-size: 16px;
 } */
 
+/* This rule can be applied using the "id" attribute in a container but it is always, always 
+use the "class" attribute since it is reusable and can be applied to different components at 
+the same time */
 #copyright {
   font-size: 16px;
 }
@@ -48,6 +51,8 @@ li {
   font-style: italic;
 } */
 
+/* this is the rule that will be applied to any component defining a "class" attribute
+ with this name */
 .related-author {
   font-size: 18px;
   font-weight: bold;
