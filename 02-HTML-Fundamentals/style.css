@@ -79,3 +79,20 @@ aside {
   border-top: 5px solid #1098ab;
   border-bottom: 5px solid #1098ab;
 }
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+}
+
+/* can hold values of numbers or keywords, "odd" "even" */
+li:nth-child(2) {
+  color: #1098ab;
+}
+
+article p:last-child {
+  color: red;
+}
