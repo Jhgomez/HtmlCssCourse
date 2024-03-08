@@ -5,6 +5,14 @@ h4,
 p,
 li {
   font-family: sans-serif;
+  color: #444;
+}
+
+h1,
+h2,
+h3 {
+  /* color: rgba(16, 152, 173, 0.3); */
+  color: #1098ab;
 }
 
 h1 {
