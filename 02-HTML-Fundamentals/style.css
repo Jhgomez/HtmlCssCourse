@@ -36,7 +36,11 @@ li {
   font-size: 20px;
 }
 
-footer p {
+/* footer p {
+  font-size: 16px;
+} */
+
+#copyright {
   font-size: 16px;
 }
 
@@ -44,6 +48,11 @@ footer p {
   font-style: italic;
 } */
 
-#author {
-  font-style: italic;
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.no-bullet-ul {
+  list-style: none;
 }
