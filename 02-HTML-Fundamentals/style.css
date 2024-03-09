@@ -1,11 +1,6 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
-  color: #444;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 h1,
@@ -17,16 +12,20 @@ h3 {
 
 h1 {
   font-size: 26px;
+  margin-top: 0px;
   text-transform: uppercase;
   font-style: italic;
 }
 
 h2 {
   font-size: 40px;
+  margin-bottom: 30px;
 }
 
 h3 {
   font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
 }
 
 h4 {
@@ -38,10 +37,18 @@ h4 {
 p {
   font-size: 22px;
   line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 li {
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 /* footer p {
@@ -70,14 +77,29 @@ the same time */
   list-style: none;
 }
 
+body {
+  border-top: #1098ab 10px solid;
+  font-family: sans-serif;
+  color: #444;
+}
+
 .header-background-gray {
   background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+}
+
+.article-header {
+  margin-bottom: 40px;
 }
 
 aside {
+  padding: 50px;
   background-color: #f7f7f7;
   border-top: 5px solid #1098ab;
   border-bottom: 5px solid #1098ab;
+  /* vertical padding and horizontal padding */
+  padding: 50px 0;
 }
 
 li:first-child {
@@ -86,6 +108,7 @@ li:first-child {
 
 li:last-child {
   font-style: italic;
+  margin-bottom: 0;
 }
 
 /* can hold values of numbers or keywords, "odd" "even" */
@@ -95,6 +118,10 @@ li:nth-child(2) {
 
 article p:last-child {
   color: red;
+}
+
+article {
+  margin-bottom: 60px;
 }
 
 /* we can format anchors/links that actually has an URL, and/or has been visited by
