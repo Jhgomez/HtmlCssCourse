@@ -118,4 +118,7 @@ a:hover {
 a:active {
   background-color: black;
   font-style: italic;
+  /* you can use a modifier like this to give it priority if there 
+  is styling conflicts
+  font-style: italic !important; */
 }
