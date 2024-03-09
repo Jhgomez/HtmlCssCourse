@@ -87,10 +87,16 @@ body {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
+  height: 80px;
 }
 
 .article-header {
   margin-bottom: 40px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
 }
 
 aside {
@@ -100,6 +106,7 @@ aside {
   border-bottom: 5px solid #1098ab;
   /* vertical padding and horizontal padding */
   padding: 50px 0;
+  width: 500px;
 }
 
 li:first-child {
