@@ -83,6 +83,12 @@ body {
   color: #444;
 }
 
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header-background-gray {
   background-color: #f7f7f7;
   padding: 20px 40px;
