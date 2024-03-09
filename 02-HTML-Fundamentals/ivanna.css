@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+}
+
+h1,
+nav,
+article,
+footer {
+  background-color: #f7f7f7;
+}
+
+.hearts {
+  color: crimson;
+}
+
+.ivanna {
+  color: pink;
+}
+
+.cookieBorder {
+  border-top: slateblue solid 5px;
+  border-bottom: slateblue solid 5px;
+}
+
+.juanBorder {
+  border-top: olivedrab solid 5px;
+  border-bottom: olivedrab solid 5px;
+}
+
+.juan {
+  color: dodgerblue;
+}
+
+a: ;
