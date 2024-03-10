@@ -84,7 +84,7 @@ body {
 }
 
 .container {
-  width: 700px;
+  width: 850px;
   margin-top: 0;
   padding-top: 0;
   margin-left: auto;
@@ -95,7 +95,6 @@ body {
   background-color: #f7f7f7;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
 }
 
 .article-header {
@@ -220,4 +219,32 @@ h3 + p::first-line {}
 h1::first-letter {
   font-style: normal;
   margin-right: 5px;
+}
+
+/* FLOATS */
+
+.authorPic {
+  float: left;
+}
+
+.author {
+  float: left;
+  margin-top: 10px;
+  /* font-size: 8px; */
+  margin-left: 20px;
+}
+
+h1 {
+  float: left;
+}
+
+nav {
+  float: right;
+}
+
+.clearfix::after {
+  /* clears floats */
+  clear: both;
+  content: "";
+  display: block;
 }
