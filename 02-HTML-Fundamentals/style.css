@@ -12,7 +12,6 @@ h3 {
 
 h1 {
   font-size: 26px;
-  margin-top: 0px;
   text-transform: uppercase;
   font-style: italic;
 }
@@ -86,6 +85,8 @@ body {
 
 .container {
   width: 700px;
+  margin-top: 0;
+  padding-top: 0;
   margin-left: auto;
   margin-right: auto;
 }
@@ -172,7 +173,7 @@ the other, this behavior can be changed and/or combined using
 the "display" attribute*/
 
 nav a:link {
-  background-color: orangered;
+  /* background-color: orangered; */
   /* 
   as an anchor is an inline box the margin only applies to
   horizontally, and if we need the margin to apply both axis
@@ -199,4 +200,24 @@ button {
   position: absolute;
   bottom: 50px;
   right: 50px;
+}
+
+/* it exists pseudo-classes but also pseudo-elements
+which helps us select different elements inside
+a container, examples:
+h1::first-letter {
+
+}
+
+p::first-line {}
+
+or it can be compound, this would selecct the first p after
+each h3
+
+h3 + p::first-line {}
+*/
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
 }
