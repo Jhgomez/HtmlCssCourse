@@ -16,11 +16,24 @@ body {
   margin: 40px auto;
 }
 
+.product-title::before {
+  content: "sale";
+  position: absolute;
+  padding: 5px 14px;
+  top: -12px;
+  left: -24px;
+  font-size: 11px;
+  background-color: red;
+  letter-spacing: 1px;
+  color: white;
+}
+
 .product-title {
   text-align: center;
   background-color: #f7f7f7;
   text-transform: uppercase;
   padding: 15px 0;
+  position: relative;
 }
 
 .price {
@@ -51,10 +64,74 @@ more-info:active {
   margin-bottom: 16px;
 }
 
+.colorsList {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.colorsList li:first-child {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: black;
+}
+
+.colorsList li:nth-child(2) {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: blue;
+}
+
+.colorsList li:nth-child(3) {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: red;
+}
+
+.colorsList li:nth-child(4) {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: orange;
+}
+
+.colorsList li:nth-child(5) {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: green;
+}
+
+.colorsList li:last-child {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: brown;
+}
+
 /* PRODUCT DETAILS */
 .details-title {
   text-transform: uppercase;
-  margin-top: 16px;
   margin-bottom: 8px;
 }
 
