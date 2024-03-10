@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  /* color: rgba(16, 152, 173, 0.3); */
+  color: #1098ab;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/* This rule can be applied using the "id" attribute in a container but it is always, always 
+use the "class" attribute since it is reusable and can be applied to different components at 
+the same time */
+#copyright {
+  font-size: 16px;
+}
+
+/* article header p {
+  font-style: italic;
+} */
+
+/* this is the rule that will be applied to any component defining a "class" attribute
+ with this name */
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.no-bullet-ul {
+  list-style: none;
+}
+
+body {
+  border-top: #1098ab 10px solid;
+  font-family: sans-serif;
+  color: #444;
+  position: relative;
+}
+
+.container {
+  width: 700px;
+  margin-top: 0;
+  padding-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header-background-gray {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  height: 80px;
+}
+
+.article-header {
+  margin-bottom: 40px;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+
+aside {
+  padding: 50px;
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ab;
+  border-bottom: 5px solid #1098ab;
+  /* vertical padding and horizontal padding */
+  padding: 50px 0;
+  width: 500px;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* can hold values of numbers or keywords, "odd" "even" */
+li:nth-child(2) {
+  color: #1098ab;
+}
+
+article p:last-child {
+  color: red;
+}
+
+article {
+  margin-bottom: 60px;
+}
+
+/* we can format anchors/links that actually has an URL, and/or has been visited by
+ using pseudo classes, this enables you to even styl components/containers depending on its state
+ using pseudo classe  */
+a:link {
+  color: #1098ab;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #1098ab;
+}
+
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: black;
+  font-style: italic;
+  /* you can use a modifier like this to give it priority if there 
+  is styling conflicts
+  font-style: italic !important; */
+}
+
+/* there is two types of boxes, inline and block, inline ocupies 
+required space only and padding and margin only apply horizontally, 
+while block ocupies whole horizontal space and can not be 
+place next to each other instead they are placed one below
+the other, this behavior can be changed and/or combined using
+the "display" attribute*/
+
+nav a:link {
+  /* background-color: orangered; */
+  /* 
+  as an anchor is an inline box the margin only applies to
+  horizontally, and if we need the margin to apply both axis
+  we need to set "display: inline-block"
+  margin: 8px; 
+  */
+  margin-top: 10px;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+/* there is different types of flows in html but two importants
+are: first, the default which is called normal flow and seconded, relative,
+the second could cause containers/views to overlap as it will be placed
+retivaly to the parent container*/
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+}
+
+/* it exists pseudo-classes but also pseudo-elements
+which helps us select different elements inside
+a container, examples:
+h1::first-letter {
+
+}
+
+p::first-line {}
+
+or it can be compound, this would selecct the first p after
+each h3
+
+h3 + p::first-line {}
+*/
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
