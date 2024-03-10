@@ -81,6 +81,7 @@ body {
   border-top: #1098ab 10px solid;
   font-family: sans-serif;
   color: #444;
+  position: relative;
 }
 
 .container {
@@ -161,4 +162,41 @@ a:active {
   /* you can use a modifier like this to give it priority if there 
   is styling conflicts
   font-style: italic !important; */
+}
+
+/* there is two types of boxes, inline and block, inline ocupies 
+required space only and padding and margin only apply horizontally, 
+while block ocupies whole horizontal space and can not be 
+place next to each other instead they are placed one below
+the other, this behavior can be changed and/or combined using
+the "display" attribute*/
+
+nav a:link {
+  background-color: orangered;
+  /* 
+  as an anchor is an inline box the margin only applies to
+  horizontally, and if we need the margin to apply both axis
+  we need to set "display: inline-block"
+  margin: 8px; 
+  */
+  margin-top: 10px;
+  margin-right: 30px;
+  display: inline-block;
+}
+
+nav a:link:last-child {
+  margin-right: 0;
+}
+
+/* there is different types of flows in html but two importants
+are: first, the default which is called normal flow and seconded, relative,
+the second could cause containers/views to overlap as it will be placed
+retivaly to the parent container*/
+button {
+  font-size: 22px;
+  padding: 20px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
 }
