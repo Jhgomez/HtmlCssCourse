@@ -224,7 +224,7 @@ h1::first-letter {
 }
 
 /* FLOATS */
-
+/*
 .authorPic {
   float: left;
 }
@@ -232,7 +232,6 @@ h1::first-letter {
 .author {
   float: left;
   margin-top: 10px;
-  /* font-size: 8px; */
   margin-left: 20px;
 }
 
@@ -245,7 +244,6 @@ nav {
 }
 
 .clearfix::after {
-  /* clears floats */
   clear: both;
   content: "";
   display: block;
@@ -263,4 +261,5 @@ aside {
 
 footer {
   clear: both;
-}
+} 
+*/
