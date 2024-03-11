@@ -1,0 +1,11 @@
+# Flexbox
+
+The following are important properties separated by container and item properties
+
+Flex Container
+1.- gap: 0 
+To create space in between without using margin
+2.- justify-content: flext-start
+To align items along main axis(horizontally)
+3.- align-items: strech | flex-start | flex-end | center | baseline
+To align items along cross axis(vertically)
