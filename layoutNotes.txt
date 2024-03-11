@@ -26,4 +26,4 @@ To allow an element to shrink
 4.- flex-basis: auto
 To define an item's widht, instead of the widht property
 5.- flex: 0 1 auto
-Recommended shorthand for flex-grow, -shrink, -basis
+Recommended shorthand for flex-gow, flex-shrink and flex-basis
