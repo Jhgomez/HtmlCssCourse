@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,7 +13,7 @@ body {
 /* PRODUCT */
 .product {
   border: black 4px solid;
-  width: 825px;
+  width: 759px;
   margin: 40px auto;
 }
 
@@ -36,8 +37,40 @@ body {
   position: relative;
 }
 
+.picture {
+  width: 170px;
+  height: auto;
+  float: left;
+  margin-right: 40px;
+}
+
+.column {
+  width: 250px;
+  margin-top: 20px;
+  float: left;
+}
+
+.columnRight {
+  width: 250px;
+  margin-top: 20px;
+  margin-left: 40px;
+  padding-right: 30px;
+  float: left;
+}
+
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: inline-block;
+}
+
+.header {
+  margin-bottom: 16px;
+}
+
 .price {
   font-size: 16px;
+  float: left;
 }
 
 .shipping {
@@ -45,7 +78,8 @@ body {
   color: #777;
   font-weight: bold;
   text-transform: uppercase;
-  margin-bottom: 16px;
+  float: right;
+  /* margin-top: 5px; */
 }
 
 .description {
@@ -65,17 +99,16 @@ more-info:active {
 }
 
 .colorsList {
-  margin-top: 12px;
-  margin-bottom: 12px;
+  margin-top: 28px;
 }
 
 .colorsList li:first-child {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 4px;
-  height: 12px;
-  width: 12px;
+  margin-right: 10px;
+  height: 18px;
+  width: 18px;
   background-color: black;
 }
 
@@ -83,9 +116,9 @@ more-info:active {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 4px;
-  height: 12px;
-  width: 12px;
+  margin-right: 10px;
+  height: 18px;
+  width: 18px;
   background-color: blue;
 }
 
@@ -93,9 +126,9 @@ more-info:active {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 4px;
-  height: 12px;
-  width: 12px;
+  margin-right: 10px;
+  height: 18px;
+  width: 18px;
   background-color: red;
 }
 
@@ -103,9 +136,9 @@ more-info:active {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 4px;
-  height: 12px;
-  width: 12px;
+  margin-right: 10px;
+  height: 18px;
+  width: 18px;
   background-color: orange;
 }
 
@@ -113,9 +146,9 @@ more-info:active {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 4px;
-  height: 12px;
-  width: 12px;
+  margin-right: 10px;
+  height: 18px;
+  width: 18px;
   background-color: green;
 }
 
@@ -123,9 +156,9 @@ more-info:active {
   display: inline-block;
   margin-top: 0;
   margin-bottom: 0;
-  margin-right: 4px;
-  height: 12px;
-  width: 12px;
+  margin-right: 10px;
+  height: 18px;
+  width: 18px;
   background-color: brown;
 }
 
