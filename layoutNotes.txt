@@ -9,3 +9,9 @@ To create space in between without using margin
 To align items along main axis(horizontally)
 3.- align-items: strech | flex-start | flex-end | center | baseline
 To align items along cross axis(vertically)
+4.- flex-direction: row
+To define which is the main axis
+5.- flex-wrap: nowrap
+To allow items to wrap into a new line if they are too large
+6.- align-content: stretch
+Only applies when there are multiple lines
