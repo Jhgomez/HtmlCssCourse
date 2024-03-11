@@ -5,25 +5,34 @@ The following are important properties separated by container and item propertie
 # Flex Container
 1.- gap: 0 
 To create space in between without using margin
+
 2.- justify-content: flext-start
 To align items along main axis(horizontally)
+
 3.- align-items: strech | flex-start | flex-end | center | baseline
 To align items along cross axis(vertically)
+
 4.- flex-direction: row
 To define which is the main axis
+
 5.- flex-wrap: nowrap
 To allow items to wrap into a new line if they are too large
+
 6.- align-content: stretch
 Only applies when there are multiple lines
 
 # Flex Items
 1.- align-self: auto
 To override align-items for individual flex items
+
 2.- flex-grow: 0
 To allow an element to grow
+
 3.- flex-shrink: 1
 To allow an element to shrink
+
 4.- flex-basis: auto
 To define an item's widht, instead of the widht property
+
 5.- flex: 0 1 auto
 Recommended shorthand for flex-gow, flex-shrink and flex-basis
