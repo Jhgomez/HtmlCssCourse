@@ -1,0 +1,6 @@
+# HTML Elements/Containers
+1.- <container></container>
+2.- <span></span> - used to insert "small/simple" texts
+3.- <blackquote></blackquote> - used to insert text as a quote, like when making a comment about a product
+
+# CSS Properties
