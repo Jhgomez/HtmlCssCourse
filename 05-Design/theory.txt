@@ -15,4 +15,25 @@ will refer to them as "Ingredients"
 
 We need to use these Ingredients based on the website
 personality
-  1.
+  1. Serious/Elegant: based on thin serif typefaces, golden
+  or pastel color and big HQ images
+
+  2. Minimalist/Simple: Focuses on essential text content using
+  small or medium sized sans-serif black text lines and few
+  images and Icons
+
+  3. Plain/Neutral: Uses small and neutral typefaces and very
+  structure layout. Common in big corporations
+
+  4. Bold/Confident: Makes and impact by featuring big and Bold
+  Typography paired with big and brigh color blocks
+
+  5. calm/peacful: To create the feel they care about the consumer
+  and is transmitted using calming pastel colors, soft serif headings
+  and matching images/Illustrations that matches colors
+
+  6. startup/Upbeat: Featuring medium size sans-serif typefaces,
+  light-grey text and backgrounds, and rounded Elements
+
+  7. playful/fun: Colorful and round designs, uses handrawn Icons
+  or Illustrations, animations and fun language
