@@ -1,6 +1,18 @@
-# HTML Elements/Containers
-1.- <container></container>
-2.- <span></span> - used to insert "small/simple" texts
-3.- <blackquote></blackquote> - used to insert text as a quote, like when making a comment about a product
+# Design
+Important Elements of web design are the following, we 
+will refer to them as "Ingredients"
 
-# CSS Properties
+  1. Typography
+  2. Colors
+  3. Image/Illustrations
+  4. Icons
+  5. Shadows
+  6. Border radius(used in buttons)
+  7. Whitespace
+  8. Visual Hierarchy
+  9. User Experience
+  10. Components and layouts
+
+We need to use these Ingredients based on the website
+personality
+  1.
