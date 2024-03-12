@@ -28,8 +28,8 @@ larger than the grid
 # Grid Items
 1.- grid-column: <start line> / <end line> | span <number>
     grid-row: <start line> / <end line> | span <number>
-To place a grid item into a specific cell, based on line numbers. Span keyword
-can be use to span an item across more cells
+To place a grid item into a specific cell, based on line numbers. <end line> is not 
+inclusive. Span keyword can be use to span an item across more cells
 
 2.- justifiy-self: strech | start | end | center
     align-self: strech | start | end | center
