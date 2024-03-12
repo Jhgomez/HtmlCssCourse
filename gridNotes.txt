@@ -3,8 +3,13 @@
 The following are important properties separated by container and item properties
 
 # Flex Container
-1.- grid-template-rows: <size>     grid-template-columns: <size>
+1.- grid-template-rows: <size>     
+    grid-template-columns: <size>
 To stablish the grid and column tracks. New fr fills unused space
+	
+	There is an special function, we can use this to define 4 columns or rows with
+	all with the same size using "fr"
+		repeat(4, 1fr)
 
 2.- row-gap: 0 | <size>  column-gap: 0 | <size>
 To create empty space between tracks
