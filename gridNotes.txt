@@ -1,0 +1,31 @@
+# Grid box
+
+The following are important properties separated by container and item properties
+
+# Flex Container
+1.- grid-template-rows: <size>     grid-template-columns: <size>
+To stablish the grid and column tracks. New fr fills unused space
+
+2.- row-gap: 0 | <size>  column-gap: 0 | <size>
+To create empty space between tracks
+
+3.- align-items: strech | start | end | center
+To align items inside columns/vertically
+
+4.- justify-items: strech | start | end | center
+To align items inside rows/horizontally
+
+3.- justify-content: start | end | center 
+    align-content: start | end | center
+To align entire grid inside grid container. Only applies if the container is
+larger than the grid
+
+# Grid Items
+1.- grid-column: <start line> / <end line> | span <number>
+    grid-row: <start line> / <end line> | span <number>
+To place a grid item into a specific cell, based on line numbers. Span keyword
+can be use to span an item across more cells
+
+2.- justifiy-self: strech | start | end | center
+    align-self: strech | start | end | center
+To overwrite justify-items/align-items for single items
