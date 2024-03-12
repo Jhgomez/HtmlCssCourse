@@ -34,3 +34,7 @@ can be use to span an item across more cells
 2.- justifiy-self: strech | start | end | center
     align-self: strech | start | end | center
 To overwrite justify-items/align-items for single items
+
+Note: There exists implicit and explicit rows, implicit rows exists if columns and rows
+aren't enough to fit all the childs in the grid. There is a way to format implicit rows
+but it is not inside the scope of these course
