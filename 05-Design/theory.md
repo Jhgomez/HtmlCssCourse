@@ -2,7 +2,8 @@
 Important Elements of web design are the following, we 
 will refer to them as "Ingredients"
 
-  1. Typography
+  1. Typography 
+    
   2. Colors
   3. Image/Illustrations
   4. Icons
